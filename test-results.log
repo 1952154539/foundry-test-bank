@@ -1,0 +1,40 @@
+No files changed, compilation skipped
+
+Ran 16 tests for test/Bank.t.sol:BankTest
+[PASS] test_Deposit_BalanceUpdated() (gas: 87950)
+[PASS] test_Deposit_ContractBalanceUpdated() (gas: 132061)
+[PASS] test_Deposit_EmitsEvent() (gas: 73354)
+[PASS] test_Receive_FallbackFunctionsAsDeposit() (gas: 72592)
+[PASS] test_RevertOn_ZeroDeposit() (gas: 11484)
+[PASS] test_TopDepositors_FourUsers() (gas: 247949)
+[PASS] test_TopDepositors_OneUser() (gas: 75328)
+[PASS] test_TopDepositors_SameUserMultipleDeposits() (gas: 223328)
+[PASS] test_TopDepositors_ThreeUsers() (gas: 199491)
+[PASS] test_TopDepositors_TwoUsers() (gas: 134870)
+[PASS] test_Withdraw_AdminCanWithdraw() (gas: 86719)
+[PASS] test_Withdraw_EmitsEvent() (gas: 85836)
+[PASS] test_Withdraw_NonAdminCannotWithdrawEvenIfDepositor() (gas: 73514)
+[PASS] test_Withdraw_NonAdminReverts() (gas: 75534)
+[PASS] test_Withdraw_RevertsOnInsufficientBalance() (gas: 75599)
+[PASS] test_Withdraw_RevertsOnZeroAmount() (gas: 12093)
+Suite result: ok. 16 passed; 0 failed; 0 skipped; finished in 1.55ms (2.03ms CPU time)
+
+Ran 2 tests for test/Counter.t.sol:CounterTest
+[PASS] testFuzz_SetNumber(uint256) (runs: 256, μ: 28200, ~: 29289)
+[PASS] test_Increment() (gas: 28784)
+Suite result: ok. 2 passed; 0 failed; 0 skipped; finished in 4.29ms (4.07ms CPU time)
+
+Ran 10 tests for test/TokenBank.t.sol:TokenBankTest
+[PASS] test_Deposit_EmitsEvent() (gas: 107174)
+[PASS] test_Deposit_MultipleUsers() (gas: 148074)
+[PASS] test_Deposit_RevertsOnZero() (gas: 11687)
+[PASS] test_Deposit_USDT() (gas: 113582)
+[PASS] test_Withdraw_All() (gas: 94431)
+[PASS] test_Withdraw_EmitsEvent() (gas: 119509)
+[PASS] test_Withdraw_Partial() (gas: 124395)
+[PASS] test_Withdraw_RevertsOnInsufficientBalance() (gas: 13879)
+[PASS] test_Withdraw_RevertsOnInsufficientBalance_AfterPartialWithdraw() (gas: 119937)
+[PASS] test_Withdraw_RevertsOnZero() (gas: 11622)
+Suite result: ok. 10 passed; 0 failed; 0 skipped; finished in 8.14s (17.83s CPU time)
+
+Ran 3 test suites in 8.14s (8.14s CPU time): 28 tests passed, 0 failed, 0 skipped (28 total tests)
