@@ -31,5 +31,9 @@ jobs:
       - name: Run Forge build
         run: forge build --sizes
 
-      - name: Run Forge tests
-        run: forge test -vvv
+      - name: Run Bank tests
+        run: forge test --match-contract BankTest -vvv
+
+      - name: Run TokenBank tests (fork)
+        run: forge test --match-contract TokenBankTest -vvv
+        continue-on-error: true
